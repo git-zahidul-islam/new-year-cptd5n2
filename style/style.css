@@ -1,0 +1,41 @@
+/* common design */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+/* nav design */
+header {
+    height: 808px;
+    width: 100%;
+    background-image: url(../image/banner/banner1.png);
+}
+nav {
+    display: flex;
+    align-items: center;
+    height: 80%;
+    margin: 0 200px 160px 800px;
+    /* margin-left: 800px; */
+}
+.nav-title {
+    color: var(--Dark-01, #151414);
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+}
+.nav-description {
+    color: var(--Dark-02, #444343);
+    text-align: right;
+    font-size: 16px;;
+    font-weight: 400;
+    line-height: 26px;
+}
+.nav-content .nav-btn {
+    padding: 10px;
+    display: block;
+}
+button {
+    
+}
