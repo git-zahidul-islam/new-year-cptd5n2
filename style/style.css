@@ -50,3 +50,65 @@ nav {
     margin: 20px 0;
     color: white;
 }
+/* main design */
+main section{
+    margin-top: 140px;
+}
+.section-about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.section-img{
+    width: 460px;
+}
+.section-about-container {
+    width: 420px;
+}
+.section-about-title {
+    color:  #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.section-about-description {
+    color:  #444343;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.section-about-check {
+    color:  #444343;
+    font-size: 15px;
+}
+.fa-check {
+    width: 24px;
+    height: 24px;
+    color: #16D887;
+}
+/* plan design */
+.section-plan-head {
+    text-align: center;
+}
+.plan-items {
+    margin: 0 auto;
+    border: 2px solid red;
+    width: 900px;
+    height: 150px;
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+.plan-items .item {
+
+    display: flex;
+    flex-direction: column;
+}
+.item img {
+    width: 92.958px;
+    height: 92.958px;
+    margin-right: 10px;
+}
+.plan-item-title {
+   justify-content: center;
+}
